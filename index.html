@@ -55,7 +55,7 @@
 		</section>
 
 		<section id="equipo" class="team section-content-reverse">
-			<div class="row section-content">
+			<div class="row section-content container">
 				<div class="col-4">			
 					<article>    
 	                    <header>
@@ -87,10 +87,17 @@
                                 <h4 class="position">Fiscal del distrito</h4>
                             </header>
                             <figure class="team-member-photo">
-                                <img src="images/harvey.jpg" alt="Foto de Harvey">
+                                <div class="flip">
+                                	<div class="front">
+                                		<img src="images/harvey.jpg" alt="Foto de Harvey">
+                                	</div>
+                                	<div class="back">
+                                		<img src="images/harvey-two-face.jpg" alt="Foto de Harvey dos caras">
+                                	</div>
+                                </div>
                                 <figcaption class="photo-name">
-                                    <small>Harvey Dent</small>
-                                </figcaption>
+									<small>Harvey Dent</small>
+								</figcaption>
                             </figure>
                             <p class="bio">
                                 "O mueres como un héroe, o vives lo suficiente como para convertirte en el villano" - 
@@ -123,14 +130,32 @@
             </div>
 		</section>
 
-		<section id="transporte">
-			<article>
-			</article>
-			<article>
-			</article>
-		</section>
+		<section id="transporte" class="trasnport section-content">
+                <div class="row-flex">
+                    <article class="transport-item">
+                        <figure>
+                            <img class="transport-img" src="images/car.jpg" alt="Coche Batman"></img>
+                            <figcaption>
+                                <small>Coche Batman</small>
+                            </figcaption>
+                        </figure>
+                        <p class="transport-info">Fabricado en el año <time datetime="2005">2005</time> y se uso durante toda la trilogía.</p>
+                        
+                    </article>
+
+                    <article class="transport-item">
+                        <figure>
+                            <img class="transport-img" src="images/moto.jpg" alt="Moto Batman"></img>
+                            <figcaption>
+                                <small>Moto Batman</small>
+                            </figcaption>
+                        </figure>
+                        <p class="transport-info">Fabricado en el año <time datetime="2005">2005</time> y se uso durante toda la trilogía.</p>                        
+                    </article>
+                </div>
+            </section>
 	</main>
 
-	<footer>José Antonio Maldonado &copy 2016</footer>
+	<footer class="footer">José Antonio Maldonado &copy 2016</footer>
 <body>
 </html>
