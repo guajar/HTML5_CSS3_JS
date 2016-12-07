@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0px;
 	font-family: 'Roboto', sans-serif;
@@ -83,6 +87,22 @@ body {
 .about-me > .batman-info {
 	max-width: 50%;
 	float: right;
+}
+
+.team-member-photo img {
+	height: 300px;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.section-content {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.section-content-reverse {
+	background-color: rgba(0, 0, 0, 0.92);
+	color: white;
 }
 
 .clearfix:after {
