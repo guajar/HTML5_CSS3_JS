@@ -2,6 +2,7 @@ var form = document.getElementById("form-contact");
 
 var apellidosInput = document.getElementsByName("tienes_apellidos");
 var ejercitoInput = document.getElementById("ejercito");
+var tooManyEnemies = document.getElementById("too-many-enemies");
 
 var inputApellidos = document.createElement("input");
 inputApellidos.setAttribute("id", "apellidos");
@@ -21,3 +22,20 @@ for (var i = 0; i < apellidosInput.length; i++) {
         }
     });
 }
+
+ejercitoInput.addEventListener("keyup", function(event) {
+	if (this.value > 50) {
+		tooManyEnemies.style.display = 'block';
+	}
+	else {
+		tooManyEnemies.style.display = 'none';
+	}
+});
+
+form.addEventListener("submit", function(event) {
+	var inputNombre = document.getElementById("nombre");
+	var apellidosRadioInput = {
+		"appellido_si": document.getElementById("apellidos_si"),
+		"appellido_no": document.getElementById("apellidos_no")
+	}
+});
