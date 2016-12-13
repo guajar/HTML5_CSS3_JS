@@ -74,9 +74,9 @@
                     </div>
 
                     <div class="form-row">
-                        <label for="emial">Email:</label>
+                        <label for="email">Email:</label>
                         <input type="email" id="email" name="email" placeholder="name@company.com" 
-                        pattern="[A-Za-Z0-9\.\+]+@[A-Za-Z0-9]+\.[A-Za-Z0-9\.]+">
+                        pattern="[A-Za-Z0-9\.\+]+@[A-Za-Z0-9]+\.[A-Za-Z0-9\.]+" required>
                     </div>
 
                     <div class="form-row">
@@ -116,10 +116,17 @@
         </section>
     </main>
 
+    <!--<video id="video" width="600" height="400"></video>
+    <button id="snap">Snap photo</button>
+    <canvas id="canvas" width="600" height="400"></canvas>-->
+
     <footer class="footer">
         José Antonio Maldonado &copy; 2016
     </footer>
 </body>
 <script src="js/form.js"></script>
 <script src="js/geolocation.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/send-notification.js"></script>
+<script src="js/storage.js"></script>
 </html>

@@ -77,7 +77,7 @@ form.addEventListener("submit", function(event){
     }
 
     if(email.checkValidity() == false) {
-        alert("Escribe tus email correcto");
+        alert("Escribe tu email correcto");
         email.focus();
         event.preventDefault();
         return false;
@@ -103,4 +103,11 @@ form.addEventListener("submit", function(event){
         event.preventDefault();
         return false;
     }
+
+    event.preventDefault();
+
+    setTimeout(function() {
+    	sendNotification("Formulario recibido", "En breve tendrás respuesta");
+    }, 1000);
 });
+
