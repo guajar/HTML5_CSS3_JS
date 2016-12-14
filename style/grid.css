@@ -4,7 +4,7 @@
 	margin: 0 auto;
 }
 
-/* clearfix hack */
+/* cleafix hack */ 
 .row:before,
 .row:after {
 	content: "";
@@ -19,7 +19,7 @@
 }
 
 .col-2 {
-	width: 16.666666667%;
+	width: 16.66666667%;
 	float: left;
 	display: inline-block;
 }
@@ -37,7 +37,7 @@
 }
 
 .col-5 {
-	width: 41.6666666667%;
+	width: 41.66666667%;
 	float: left;
 	display: inline-block;
 }
@@ -49,13 +49,13 @@
 }
 
 .col-7 {
-	width: 58.333333333%;
+	width: 58.33333333%;
 	float: left;
 	display: inline-block;
 }
 
 .col-8 {
-	width: 66.666666667%;
+	width: 66.66666667%;
 	float: left;
 	display: inline-block;
 }
@@ -67,13 +67,13 @@
 }
 
 .col-10 {
-	width: 83.333333333%;
+	width: 83.33333333%;
 	float: left;
 	display: inline-block;
 }
 
 .col-11 {
-	width: 91.666666667%;
+	width: 91.66666667%;
 	float: left;
 	display: inline-block;
 }
