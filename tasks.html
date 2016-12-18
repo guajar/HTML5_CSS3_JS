@@ -36,17 +36,19 @@
     </nav>
 
     <main class="container">
-        <section id="task-container" class="section-content row">
+        <section class="section-content row">
             <h2>Lista de tareas</h2>
+
             <div class="col-6">
                 <h3>Añadir nueva tarea</h3>
                 <form>
-                    <input type="text" id="newTaskName" name="name"  placeholder="Nueva tarea..." required>
+                    <input type="text" id="newTaskName" name="name" placeholder="Nueva tarea..." required>
                     <br>
                     <br>
                     <button id="sendNewTask">Enviar</button>
                 </form>
             </div>
+
             <div class="col-6">
                 <h3>Tareas pendientes</h3>
                 <div class="loader"></div>
@@ -58,10 +60,9 @@
     </main>
 
     <footer class="footer">
-        Sergio Fernández &copy; 2016 KeepCoding.io
+        Jose Antonio Maldonado &copy; 2016
     </footer>
 </body>
 <script src="js/send-notification.js"></script>
-<script src="js/storage.js"></script>
 <script src="js/tasks.js"></script>
 </html>
