@@ -222,7 +222,7 @@ input {
 	border-radius: 4px;
 }
 
-input[type=button], input[type=submit], input[type=rest], button {
+input[type=button], input[type=submit], input[type=reset], button {
     background-color: #4CAF50;
     border: none;
     color: white;
