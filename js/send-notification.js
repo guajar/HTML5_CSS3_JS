@@ -11,7 +11,7 @@ function sendNotification(msg, body) {
 	} else {
 		notification.requestPermission(function(permission) {
 			if (Notification.permission === 'granted') {
-				var notification = new Notification(msg, body);
+				var notification = new Notification(msg, options);
 			}
 		});
 	}
